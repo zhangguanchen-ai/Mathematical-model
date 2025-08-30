@@ -1,0 +1,24 @@
+\documentclass{article}
+\title{The movement path problem of the bench dragon}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\section{Establishment and solution of the problem 1 model}
+Given the pitch of 0.55m and the starting point A(8.8, 0), this paper is able to establish the polar coordinate equation corresponding to the spiral winding:
+\begin{equation}
+\rho(\theta)=\frac{d}{2\pi}\theta
+\end{equation}
+Since the advancing speed of the handle along the spiral path at the faucet is constant at v = 1 m/s, from the initial time t = 0s to the time t = $t_0\in[0,300]$moment,The length of the path traversed by the handle of the faucet is $vt_0$,the angle of the polar coordinate changes from $\theta=32\pi$ to $\theta=\theta_{0}$.According to the integral formula of the helix length, the following relationship can be obtained:
+\begin{equation}
+\int_{\theta_0}^{32\pi}\sqrt{{(\rho^{'}(\theta))}^2+\rho^{2}(\theta)}d\theta
+\end{equation}
+Given the known value of $t_0$, the corresponding value of $\theta_0$ can be calculated. Then, through the conversion formula between polar coordinates and rectangular coordinates:
+\begin{equation}
+\begin{cases}
+x_0=\rho{(\theta_0)}cos\theta_0\\
+y_0=\rho{(\theta_0)}sin\theta_0\\
+\end{cases}
+\end{equation}
+Obtain $t = t_0$ at the center coordinates $(x_0,y_0)$ of the handle in front of the faucet.
+\section{Establish the position iteration formula}
+\end{document}
